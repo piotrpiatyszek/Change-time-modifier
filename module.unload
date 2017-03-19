@@ -1,0 +1,6 @@
+#!/bin/sh
+module="ctime_modifier"
+device="ctimem"
+
+/sbin/rmmod $module
+rm -rd /dev/${device}
